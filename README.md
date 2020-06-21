@@ -65,7 +65,7 @@
 导入MySQL数据库数据：https://blog.csdn.net/h471507602/article/details/93350472
 （注意可能会遇到MySQL编码问题，导致系统异常）
 
-安装环境之后，将jpgraph文件放到项目的根文件HIS下,将HIS项目代码放到Apache服务器的htdocs下，在本地访问localhost即可。
+安装环境之后，将jpgraph文件放到项目的根文件HIS下,将HIS项目代码放到Apache服务器的htdocs下，修改HIS文件夹下的conf.php里MySQL的密码为安装MySQL的密码，在本地访问localhost即可。
 
 
 
