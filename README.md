@@ -1,6 +1,8 @@
 # his-demo
 一个模仿医院工作流程的医院信息管理系统
 
+系统工作流程：病人注册登录系统->挂号->医生接诊->病人到线下收费处缴费->到药房取药。
+
 本项目为2019年项目，主要用于PHP学习，最近把项目重新上线，顺便公开供其他有需要的人学习，本系统注释比较少，代码项目结构比较乱，该系统后台开发技术为php+mysql+apache,前台开发技术为HTML+JavaScript+CSS，前后台使用ajax通信。系统包括登录和注册、新闻展示、导诊机器人、系统内部通讯、论坛、问诊、坐诊、数据统计、药物管理、财务管理和系统管理模块。根据不同的用户类型，系统显示不同的内容。使用系统注册功能的只能是patient类型用户，如果需要添加其他用户，请登录管理员账号到系统设置里添加。以下为一些系统使用细节说明：
 
 登录注册
@@ -49,3 +51,24 @@
 
 演示网址:[医院信息管理系统](http://39.108.94.247)
 管理员账号：admin；密码为hgl2000
+
+安装教程
+
+安装环境：Windows>=7，PHP7.2.31，Apache2.4.43，MySQL8.0.0，jpgraph4.2.6
+
+资源地址：https://pan.baidu.com/s/1ADrnuwha8rf2QfehS8LGGw 
+
+提取码：zaqb 
+
+搭建PHP开发环境（Apache+PHP+MySQL）：https://blog.csdn.net/galen2016/article/details/80778662
+
+导入MySQL数据库数据：https://blog.csdn.net/h471507602/article/details/93350472
+（注意可能会遇到MySQL编码问题，导致系统异常）
+
+安装环境之后，将jpgraph文件放到项目的根文件HIS下,将HIS项目代码放到Apache服务器的htdocs下，在本地访问localhost即可。
+
+
+
+
+
+
