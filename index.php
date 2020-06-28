@@ -138,10 +138,10 @@ function explore(identify){
 <tr>
 <td colspan="2">确认密码：<input type="password" class="diainput" name="repass"></td>
 </tr>
-<td colspan="2" style="text-align:left;">&nbsp;&nbsp;性&nbsp;&nbsp;&nbsp;&nbsp;别：&nbsp;&nbsp;男<input checked type="radio" name="addusersex" value=1>&nbsp;&nbsp;&nbsp;&nbsp;女<input type="radio" name="addusersex" value=2></td>
+<td colspan="2" style="text-align:left;padding-left:10px;">账户性别：&nbsp;&nbsp;男<input checked type="radio" name="addusersex" value=1>&nbsp;&nbsp;&nbsp;&nbsp;女<input type="radio" name="addusersex" value=2></td>
 </tr>
 <tr>
-<td colspan="2">
+<td colspan="2" style="text-align:left;padding-left:10px;">账户类型：
 <input type="radio" name="priority" value="patient" checked/>患者
 <!-- <input type="radio" name="priority" value="doctor" />医生 -->
 <input type="radio" name="priority" value="admin" />系统管理员
